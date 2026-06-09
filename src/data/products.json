@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "price": 45000,
+    "stock": 5,
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 2,
+    "name": "Mouse",
+    "price": 500,
+    "stock": 10,
+    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 3,
+    "name": "Keyboard",
+    "price": 1000,
+    "stock": 0,
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400&h=300&fit=crop"
+  }
+]
