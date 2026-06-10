@@ -369,3 +369,238 @@ h3 {
 .products-grid .product-card:nth-child(4) { animation-delay: 0.35s; }
 .products-grid .product-card:nth-child(5) { animation-delay: 0.45s; }
 .products-grid .product-card:nth-child(6) { animation-delay: 0.55s; }
+
+/* ══════════════════════════════════
+   CHECKOUT PAGE — NEW DESIGN
+══════════════════════════════════ */
+
+.checkout-page {
+  max-width: 1000px;
+  margin: 32px auto;
+  padding: 0 20px;
+}
+
+.checkout-header {
+  margin-bottom: 24px;
+}
+
+.checkout-subtitle {
+  color: #6b7280;
+  font-size: 15px;
+  margin-top: 4px;
+}
+
+/* Two-column grid */
+.checkout-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+@media (max-width: 680px) {
+  .checkout-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Card */
+.checkout-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  animation: fadeInUp 0.5s ease both;
+}
+
+.checkout-card-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #f3f4f6;
+}
+
+/* Cart item rows in checkout */
+.checkout-item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.checkout-item-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.checkout-item-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #f3f4f6;
+}
+
+.checkout-item-info {
+  flex-grow: 1;
+}
+
+.checkout-item-name {
+  font-weight: 700;
+  font-size: 14px;
+  color: #1a1a2e;
+}
+
+.checkout-item-qty {
+  font-size: 13px;
+  color: #9ca3af;
+  margin-top: 2px;
+}
+
+.checkout-item-price {
+  font-weight: 700;
+  font-size: 15px;
+  color: #4f46e5;
+  white-space: nowrap;
+}
+
+.free-tag {
+  background: #dcfce7;
+  color: #16a34a;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+/* Price rows */
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #374151;
+  border-bottom: 1px dashed #f3f4f6;
+}
+
+.price-row small {
+  display: block;
+  font-size: 11px;
+  color: #9ca3af;
+  margin-top: 2px;
+}
+
+.discount-row {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.delivery-row {
+  color: #374151;
+}
+
+.free-delivery {
+  color: #16a34a;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.price-divider {
+  height: 2px;
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  border-radius: 2px;
+  margin: 8px 0;
+}
+
+.total-row {
+  font-size: 20px;
+  font-weight: 800;
+  color: #1a1a2e;
+  border-bottom: none;
+  padding-top: 12px;
+}
+
+/* Savings banner */
+.savings-banner {
+  background: linear-gradient(135deg, #dcfce7, #bbf7d0);
+  color: #15803d;
+  border: 1px solid #86efac;
+  border-radius: 10px;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  margin: 16px 0;
+  animation: pulse 2s infinite;
+}
+
+/* Checkout button */
+.btn-checkout {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 14px rgba(79, 70, 229, 0.4);
+  margin-top: 8px;
+}
+
+.btn-checkout:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(79, 70, 229, 0.5);
+}
+
+.btn-checkout:active {
+  transform: translateY(0);
+}
+
+.back-link {
+  display: block;
+  text-align: center;
+  margin-top: 14px;
+  color: #6b7280;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.back-link:hover {
+  color: #4f46e5;
+}
+
+/* Empty checkout */
+.checkout-empty {
+  text-align: center;
+  padding: 80px 20px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+
+.empty-icon {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.checkout-empty h2 {
+  font-size: 24px;
+  color: #1a1a2e;
+  margin-bottom: 8px;
+}
+
+.checkout-empty p {
+  color: #9ca3af;
+  font-size: 15px;
+}

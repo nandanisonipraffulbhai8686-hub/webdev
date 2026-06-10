@@ -19,5 +19,47 @@
     "price": 1000,
     "stock": 0,
     "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 4,
+    "name": "Monitor",
+    "price": 18000,
+    "stock": 3,
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 5,
+    "name": "Headphones",
+    "price": 2500,
+    "stock": 8,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 6,
+    "name": "Webcam",
+    "price": 3200,
+    "stock": 6,
+    "image": "https://images.unsplash.com/photo-1587826080692-f439cd0b70da?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 7,
+    "name": "USB Hub",
+    "price": 800,
+    "stock": 15,
+    "image": "https://images.unsplash.com/photo-1625895197185-efcec01cffe0?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 8,
+    "name": "Desk Lamp",
+    "price": 1200,
+    "stock": 0,
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 9,
+    "name": "Smartphone",
+    "price": 32000,
+    "stock": 4,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=300&fit=crop"
   }
 ]
